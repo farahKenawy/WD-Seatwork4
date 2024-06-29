@@ -1,0 +1,328 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+section {
+    width: 100%;
+    padding: 60px 0;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header styles */
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    z-index: 1000;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-emphasis: bold;
+}
+
+nav ul li a:hover {
+    background-color: #9f8c59;
+    color: #000000;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.logo {
+    display: flex;
+    height: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo:hover {
+    background-color: #ffffff6a;
+    color: #000000;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+}
+
+/* Hero section styles */
+.feature-hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('../img/bg-hero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.feature-hero .hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.feature-hero h1, .feature-hero h2, .feature-hero p {
+    margin: 10px 0;
+}
+
+/* Feature section styles */
+.features {
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000c9;
+    overflow-x: hidden;
+}
+
+/* Individual feature content styles */
+.feature-content1, .feature-content2 {
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.feature-content1 {
+    background-image: url('../img/bg-hero.jpg');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-content1 .content {
+    background-color: #00000094;
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1;
+    text-align: left;
+    z-index: 2;
+    max-width: 500px;
+}
+
+.feature-content1 .additional-image {
+    padding: 5%;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-content1 .additional-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.feature-content1 .additional-image:hover {
+    transform: scale(1.2);
+}
+
+.feature-content2 {
+    background-image: url('../img/bg-feature-2.jpg');
+    justify-content: space-between;
+    align-items: right;
+    background-size: cover;
+    opacity: 0.9;
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.feature-content2 .content {
+    background-color: #00000094;
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1;
+    text-align: right;
+    z-index: 2;
+    max-width: 800px;
+    margin-right: 20px;
+}
+.feature-content1 h3, .feature-content2 h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.feature-content1 p, .feature-content2 p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Gallery styles */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #9f8c59c7;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .card-content {
+    opacity: 1;
+}
+
+.card-content h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+
+.card-content .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .card-content .overlay {
+    opacity: 1;
+}
+
+.card-content .overlay p {
+    margin: 10px 0;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #1f2e2e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #00aaff;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+}
+
+/* Footer styles */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo {
+    height: 40px;
+}
+
+.github-link {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.github-link:hover {
+    color: #00aaff;
+}
