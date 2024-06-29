@@ -4,23 +4,21 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  <a href="https://github.com/farahKenawy">
+    <img src="./assets/img/logo.png" alt="Eagle's City" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-Seatwork4</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+Develop a Features Display Website using pure HTML and CSS, highlighting unique design layouts for various features. The project should encompass multiple pages to demonstrate diverse layouts effectively. Focus on ensuring the website is well-structured, deployed, and update the README file to reflect these aspects.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=farahKenawy/WD-Seatwork4)
 
 ---
 
@@ -57,20 +55,27 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+Project Description:
+The project involves creating a Features Display Website for showcasing distinct design layouts using HTML, CSS, and optionally JavaScript. This website will serve as a platform to demonstrate various design approaches and layouts, emphasizing creativity and functionality.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+Purpose:
+The primary purpose of the Features Display Website is to showcase different design layouts and demonstrate their application in web development. It aims to inspire and educate users, particularly web developers and designers, on effective layout strategies, usability considerations, and aesthetic choices.
+
+Key Components:
+
+HTML Structure: Utilize HTML to create the foundational structure of the website, including multiple pages each dedicated to showcasing a different design layout.
+
+CSS Styling: Employ CSS to design and style each layout effectively. This includes defining colors, typography, spacing, and responsive design principles to ensure compatibility across devices.
+
+JavaScript: JavaScript can be used to enhance interactivity and functionality. This might include dynamic elements, animations, or user interface enhancements to further engage visitors.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
+- MultiPage Website
 - Parallax transition
-- Transactional
+- Feature Pages
+- Animations
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,4 +122,10 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Developer | Family relative credited | none |
+| Pinterest | Images | https://ph.pinterest.com/ |
+| DevOut | References for Card Designs | https://devdevout.com/css/css-cards |
+| nicepage | References for Feature Designs | https://nicepage.com/k/feature-web-page-design |
+
+
+
